@@ -1203,12 +1203,95 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Relay:Y14x-1C-xxDS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "K"
-				(at 11.43 3.81 0)
+			(property "Reference" "K1"
+				(at 12.065 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1216,8 +1299,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Y14x-1C-xxDS"
-				(at 11.43 1.27 0)
+			(property "Value" "Relay 24VDC"
+				(at 12.065 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1225,7 +1308,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_SPDT_HsinDa_Y14"
+			(property "Footprint" "ESC-TFG-KiCad:OMRON G2R-1"
 				(at 11.43 -1.27 0)
 				(effects
 					(font
@@ -1452,7 +1535,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1470,7 +1553,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1499,33 +1582,14 @@
 				(pin passive line
 					(at 5.08 -7.62 90)
 					(length 2.54)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1543,7 +1607,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2150,6 +2214,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 191.135 34.29)
+		(end 229.87 41.91)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 539d3a19-72e4-42bb-bf85-7ce15e92860b)
+	)
+	(text "Tornillos"
+		(exclude_from_sim no)
+		(at 191.135 34.29 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8620932-742a-4d42-9b68-1d40aae27d55")
+	)
 	(junction
 		(at 115.57 30.48)
 		(diameter 0)
@@ -2590,6 +2677,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 204.47 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05273283-26fe-4be6-a2b0-86b7cdf565eb")
+		(property "Reference" "H5"
+			(at 207.645 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 207.645 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 204.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 204.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RTSpeed-KiCad"
+				(path "/fc8dd9a9-f99a-4338-8182-2c8b4b8ed6dd/3ab8de1a-4164-4ada-a6c8-cd6815dd64f9"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_Microchip_ATtiny:ATtiny85-20P")
 		(at 50.165 64.77 0)
 		(unit 1)
@@ -2706,7 +2857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_HsinDa_Y14"
+		(property "Footprint" "ESC-TFG-KiCad:OMRON G2R-1"
 			(at 132.08 40.64 0)
 			(effects
 				(font
@@ -2740,17 +2891,14 @@
 		(pin "2"
 			(uuid "08e368fc-ef97-469e-b3a0-a6c1aefeb940")
 		)
-		(pin "6"
+		(pin "5"
 			(uuid "437c2dba-e63d-4dfc-8b6d-0bf479eec1c7")
 		)
 		(pin "1"
 			(uuid "b878643c-1ced-49e0-be59-0fa6f70c60a6")
 		)
-		(pin "5"
-			(uuid "61e490e3-6e37-495c-9668-b38ed3d052d9")
-		)
 		(pin "4"
-			(uuid "8193f920-6731-478d-983e-a7fdac67f330")
+			(uuid "61e490e3-6e37-495c-9668-b38ed3d052d9")
 		)
 		(instances
 			(project ""
@@ -3169,6 +3317,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 213.995 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c14104a-d05a-48d9-bdf6-c101ab214c24")
+		(property "Reference" "H6"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 217.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 213.995 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.995 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 213.995 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RTSpeed-KiCad"
+				(path "/fc8dd9a9-f99a-4338-8182-2c8b4b8ed6dd/3ab8de1a-4164-4ada-a6c8-cd6815dd64f9"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 92.71 45.72 0)
 		(unit 1)
@@ -3228,6 +3440,70 @@
 			(project ""
 				(path "/fc8dd9a9-f99a-4338-8182-2c8b4b8ed6dd/3ab8de1a-4164-4ada-a6c8-cd6815dd64f9"
 					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 222.885 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55d62399-ee9c-44e7-9c9e-1e3f8cb64858")
+		(property "Reference" "H7"
+			(at 226.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 226.06 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 222.885 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.885 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 222.885 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "RTSpeed-KiCad"
+				(path "/fc8dd9a9-f99a-4338-8182-2c8b4b8ed6dd/3ab8de1a-4164-4ada-a6c8-cd6815dd64f9"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -3456,6 +3732,70 @@
 			(project ""
 				(path "/fc8dd9a9-f99a-4338-8182-2c8b4b8ed6dd/3ab8de1a-4164-4ada-a6c8-cd6815dd64f9"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 194.945 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ebdb4d8-f4a7-465d-b00e-c939e4d716ea")
+		(property "Reference" "H9"
+			(at 198.12 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 198.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 194.945 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.945 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 194.945 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/fc8dd9a9-f99a-4338-8182-2c8b4b8ed6dd/3ab8de1a-4164-4ada-a6c8-cd6815dd64f9"
+					(reference "H9")
 					(unit 1)
 				)
 			)
