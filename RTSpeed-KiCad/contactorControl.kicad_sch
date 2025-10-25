@@ -2256,12 +2256,12 @@
 		(uuid "fcb0e542-bc99-4f03-b6b0-4ee7193b4ff7")
 	)
 	(no_connect
-		(at 123.19 31.75)
-		(uuid "690f8e0d-edb8-4ef9-9625-18071685803e")
+		(at 58.42 60.96)
+		(uuid "0a494784-5ac4-4851-9f0a-f795bd40ce18")
 	)
 	(no_connect
-		(at 58.42 68.58)
-		(uuid "88e70c7f-4da7-4e0c-a726-18cb97d182d6")
+		(at 123.19 31.75)
+		(uuid "690f8e0d-edb8-4ef9-9625-18071685803e")
 	)
 	(no_connect
 		(at 58.42 71.12)
@@ -2323,6 +2323,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 60.96) (xy 77.47 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9e2ca8-2084-4b64-bab6-12a9b2b1fbcf")
+	)
+	(wire
+		(pts
 			(xy 58.42 63.5) (xy 72.39 63.5)
 		)
 		(stroke
@@ -2353,13 +2363,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 60.96) (xy 77.47 60.96)
+			(xy 76.2 68.58) (xy 58.42 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6024bf04-195c-4a1d-b840-978ec7877bbf")
+		(uuid "55a69dd9-622c-4771-b10e-6a8ac8de248e")
 	)
 	(wire
 		(pts
@@ -2460,6 +2470,16 @@
 			(type default)
 		)
 		(uuid "a21761de-6305-4075-bccd-34d18858ee0f")
+	)
+	(wire
+		(pts
+			(xy 76.2 60.96) (xy 76.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98f0a0c-e69b-4a0c-9332-58ecb36da7bb")
 	)
 	(wire
 		(pts
@@ -3244,7 +3264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 			(at 153.67 60.96 0)
 			(effects
 				(font

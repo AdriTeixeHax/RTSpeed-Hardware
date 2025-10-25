@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESC-TFG-KiCad")(type "KiCad")(uri "${KIPRJMOD}/librerías/ESC-TFG-KiCad.pretty")(options "")(descr ""))
+)

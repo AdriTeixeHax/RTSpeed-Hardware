@@ -1,4 +1,4 @@
-26411669005832569
+26415212628812655
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61222,6 +61222,13 @@ Pluggable System Terminal Block - Female
 4
 2
 ESC-TFG-KiCad
+R_Power_22x9.5x9.5_P18mm
+
+
+0
+2
+2
+ESC-TFG-KiCad
 SPDT
 
 
@@ -94120,6 +94127,13 @@ Pluggable System Terminal Block - Female
 
 0
 4
+2
+RTSpeed
+R_Power_22x9.5x9.5_P18mm
+
+
+0
+2
 2
 RTSpeed
 SPDT

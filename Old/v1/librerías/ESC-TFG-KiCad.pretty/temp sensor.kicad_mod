@@ -1,0 +1,98 @@
+(footprint "temp sensor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "22524fb1-7ab8-4468-8030-f554dae66b20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "temp sensor"
+		(at 0 -0.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "856594cb-abb4-4879-a6aa-a21095468412")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f95ab055-728b-4c77-869e-cb87747127ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a3c5754-295f-4180-be85-66e48035586b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.27 -0.635)
+		(end 1.27 0.635)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d4c16a21-fa54-4b95-88c2-c69cd036bce1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5afa5c57-94ce-4aa5-b3ac-36ac3ffd0cb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -0.635 0 180)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2453a8e0-c5d1-4a16-982c-45797c572c74")
+	)
+	(pad "2" thru_hole circle
+		(at 0.635 0 180)
+		(size 1 1)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dcb91e4e-643a-4303-8768-64f1ea9aef9a")
+	)
+	(embedded_fonts no)
+)

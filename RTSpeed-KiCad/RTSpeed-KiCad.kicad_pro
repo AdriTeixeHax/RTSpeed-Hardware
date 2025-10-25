@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|141453000|113061000|11607ffd-55f1-448f-8222-3324c9693593|9dd315c7-da33-4e1a-b3e7-caa9d6d95db7",
-          ""
-        ],
-        [
-          "hole_clearance|147253000|113061000|4d63a630-1cd7-4ee0-acf8-2200bd259c49|be9223af-12b2-48c6-bacc-50e4afa334e7",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -736,20 +727,32 @@
       "Medio-Puente-U"
     ],
     [
-      "f6e668ab-a50d-4861-bee8-58a57ed6fcc7",
+      "56c0c70b-e9c6-4997-a040-96f91e8f3432",
       "Medio-Puente-V"
     ],
     [
-      "211b6883-96c8-42a2-bec5-a4dfd4e56ba6",
+      "fb5ce165-5459-443f-a584-295dd3fe3106",
       "Medio-Puente-W"
     ],
     [
-      "c4a69fd4-3a87-4cc4-a9ed-10a611cf3282",
-      "Sensores"
+      "2fae402e-a3c3-4252-9f20-a7023d797e01",
+      "Protección 24V-12V"
     ],
     [
-      "3ab8de1a-4164-4ada-a6c8-cd6815dd64f9",
-      "Contactor-Control"
+      "d64d0f48-2df8-435c-ac70-7e2ea79e0be4",
+      "Microcontrolador"
+    ],
+    [
+      "34da7187-c669-4371-8465-6e278bc744ce",
+      "Contactor"
+    ],
+    [
+      "913da404-d2e6-473f-9e86-7d08d93697bc",
+      "ADC"
+    ],
+    [
+      "fb767b55-5f26-4992-9942-c1255d1d50dc",
+      "Motor"
     ]
   ],
   "text_variables": {}
